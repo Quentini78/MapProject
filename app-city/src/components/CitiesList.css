@@ -1,0 +1,41 @@
+.layout-container {
+  display: flex;
+  flex-direction: row; /* Garde les éléments en ligne */
+  align-items: flex-start; /* Assure que les éléments commencent depuis le haut */
+  height: 100vh;
+}
+
+.cities-list-container {
+  flex: 0.5; /* Réduit la largeur du menu défilant */
+  overflow-y: auto;
+  height: 100vh; /* Assure que le menu utilise toute la hauteur disponible */
+  padding: 10px;
+}
+
+.map-container {
+  flex: 1.5; /* Donne plus d'espace à la carte */
+  height: 100vh;
+  /* Ajoutez d'autres styles comme nécessaire */
+}
+
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
